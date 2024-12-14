@@ -1,0 +1,7 @@
+name: Setup
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Session name' 
+        required: false
